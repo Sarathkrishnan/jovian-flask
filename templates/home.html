@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Jovian Careers</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    *{
+        font-family: 'inter';
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+        font-weight: normal;
+        color: rgb(50, 50, 50);
+    }
+    #banner{
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+    }
+    h2{
+        font-weight: normal;
+        font-size: 32px;
+        color: rgb(100, 100, 100);
+    }
+    .bodyText{
+        color: rgb(50, 50, 50);
+
+    }
+    #container{
+        max-width: 720px;
+        margin: 0 auto;
+    }
+</style>
+<body>
+    <div id="container">
+        <h1>Jovian Career</h1>
+        <img id="banner" src="{{ url_for('static', filename = 'banner.jpg') }}" alt="jovian careers" >
+        <h2>About Jovian</h2>
+        <p class="bodyText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In pariatur ducimus possimus inventore facere quidem soluta. Deserunt tempora eius iste illo accusamus dolores eligendi omnis dicta consequatur. Ipsa, qui eos.</p>
+        <h2>Open positions</h2>
+        <p class="bodyText">TODO = Show the job here</p>
+        <button>Contact Us</button>
+        <p>copyright 2022 right</p>
+    </div>
+    
+</body>
+</html>
